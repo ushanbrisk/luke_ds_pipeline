@@ -1,0 +1,18 @@
+1. 
+
+根据deepspeed v0.16.5创建分支　 git checkout -b v0.16.5_luke  v0.16.5
+
+
+然后为了更好的同步，我创建了一个新的repo luke_deepspeed
+
+echo "# luke_deepspeed" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote rm origin  ＃这一步很重要，切断原来的
+git remote add origin https://github.com/ushanbrisk/luke_deepspeed.git
+git push -u origin main
+
+
+
